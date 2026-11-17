@@ -1,0 +1,29 @@
+[package]
+name = "myssh-client"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+autobins = false
+
+[[bin]]
+name = "myssh"
+path = "src/main.rs"
+
+[dependencies]
+async-trait.workspace = true
+libc.workspace = true
+sha2.workspace = true
+myssh-core = { path = "../myssh-core" }
+myssh-auth = { path = "../myssh-auth" }
+myssh-protocol = { path = "../myssh-protocol" }
+myssh-security = { path = "../myssh-security" }
+myssh-transport = { path = "../myssh-transport" }
+myssh-transport-cloudflare = { path = "../myssh-transport-cloudflare" }
+
+tokio.workspace = true
+crossterm = "0.28"
+rustls.workspace = true
+rustls-pemfile = "2"
+
+[dev-dependencies]
+rcgen = "0.13"

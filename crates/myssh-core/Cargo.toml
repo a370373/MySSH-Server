@@ -1,0 +1,10 @@
+[package]
+name = "myssh-core"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+myssh-protocol = { path = "../myssh-protocol" }
+myssh-transport = { path = "../myssh-transport" }
+tokio.workspace = true

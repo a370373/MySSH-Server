@@ -1,0 +1,39 @@
+[workspace]
+resolver = "2"
+members = [
+    "crates/myssh-core",
+    "crates/myssh-protocol",
+    "crates/myssh-transport",
+    "crates/myssh-security",
+    "crates/myssh-host",
+    "crates/myssh-client",
+    "crates/myssh-transport-cloudflare",
+    "crates/myssh-auth",
+]
+
+[workspace.package]
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+
+[workspace.dependencies]
+zeroize = "1"
+
+sha2 = "0.10"
+libc = "0.2"
+rand_core = { version = "0.6", features = ["getrandom"] }
+ed25519-dalek = { version = "2", features = ["rand_core"] }
+tokio = { version = "1", features = ["io-util", "macros", "rt", "time", "sync", "fs", "net", "signal"] }
+async-trait = "0.1"
+
+rustls = {
+    version = "0.23",
+    default-features = false,
+    features = ["std", "ring", "tls12"]
+}
+
+tokio-rustls = {
+    version = "0.26",
+    default-features = false,
+    features = ["ring", "tls12", "logging"]
+}

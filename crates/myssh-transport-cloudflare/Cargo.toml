@@ -1,0 +1,10 @@
+[package]
+name = "myssh-transport-cloudflare"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+tokio.workspace = true
+async-trait.workspace = true
+myssh-transport = { path = "../myssh-transport" }
