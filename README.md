@@ -666,3 +666,41 @@ ls -l server.csr
 ## 📄 License
 
 本專案採用 MIT License。
+
+---
+
+## 📬 聯繫創作者
+
+- Gmail: b0953166696@gmail.com
+- 本人17歲 🤔 做的不好請見諒
+- 獨立開發 ＆ AI 協作
+- 緩慢更新 ＆ 除錯
+- 純手機 Termux 開發 👀
+- 持續開發中…
+
+---
+
+## 👀 作品 & 產品集
+
+- [MySSH](https://github.com/a370373/MySSH-Server)
+- [UTE - Universal Training Engine](https://github.com/a370373/UTE-Universal-Training-Engine)
+- [0-or-1](https://github.com/a370373/0-or-1)
+- [MyDNS](https://github.com/a370373/MyDNS/tree/main)
+- [Cyber-Fly-Android-Bridge](https://github.com/a370373/Cyber-Fly-Android-Bridge)
+- [My-ADB-Shell](https://github.com/a370373/My-ADB-Shell/tree/main)
+- [Cyber-Fly](https://github.com/a370373/Cyber-Fly)
+- [MyOS](https://github.com/a370373/MyOS)
+- [RWM-1:1 Real World Minecraft](https://github.com/a370373/RWM-Real-World-Minecraft)
+- [MyAI - Offline Personal AI Agent System](https://github.com/a370373/MyAI-Offline-Personal-AI-Agent-System-/tree/main)
+- [WCL - Web Clone Lab](https://github.com/a370373/web-clone-lab/)
+- 持續增加中… 👀
+
+---
+
+## 🤖 AI 協作
+
+MySSH 由 a370373/XRH 發起、設計與開發。
+
+開發過程中使用 OpenAI ChatGPT 作為 AI 協作夥伴，協助進行技術分析、程式碼檢查、除錯與文件整理。
+
+產品方向、設計理念與最終決策由專案創作者負責。
